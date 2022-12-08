@@ -2,7 +2,7 @@
  * @Author: fencer yangd@mshutech.com
  * @Date: 2022-12-08 12:27:21
  * @LastEditors: fencer yangd@mshutech.com
- * @LastEditTime: 2022-12-08 12:57:07
+ * @LastEditTime: 2022-12-08 12:59:37
  * @FilePath: /promote-tips/step41/index.html
  * @Description: step 41 曲线排布的文字
 -->
@@ -55,8 +55,6 @@
 
     function createTransform(func, range) {
       const points = getPointY(func, range, container.children.length, container.clientWidth);
-
-      console.log(points);
 
       for (let i = 0; i < points.length; i++) {
         container.children[i].style.transform = `translateY(${points[i]}px)`;
