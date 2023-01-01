@@ -1,6 +1,7 @@
 /**
  * @description 1.将一个树状结构的数组转成扁平化数组
  * @description 2.将一个扁平化数组转成树状结构数组
+ * @description 3.增加搜索功能
  */
 function deepClone(value) {
   if (typeof value === 'object' && value !== null) {
@@ -77,7 +78,41 @@ const result2 = deepClone(data2).reduce(function (acc, cur, idx, arr) {
   cur.cildren = arr.filter(item => item.parentId === cur.id);
   // 判断是否为根元素
   return arr.filter(item => !item.parentId)
-}, [])
+}, []);
 
 console.log(JSON.stringify(result2, null, 2));
 console.log(data2);
+
+
+function serach(tree, key, value) {
+  const result = data1.reduce(function (acc, cur) {
+    acc.push({
+      id: cur.id,
+      name: cur.name,
+      parentId: cur.parentId,
+      [`_search_${key}`]: cur[`_search_${key}`] ?? cur[key]
+    });
+    cur.children && cur.children.forEach(child => {
+      child[`_search_${key}`] = `${cur[`_search_${key}`] ?? cur[key]},${child[key]}`;
+      child.parentId = cur.id;
+      arguments.callee(acc, child);
+    })
+    return acc;
+  }, []);
+  const _temp1 = result.filter(item => item[`_search_${key}`].split(',').some(v => v.indexOf(value) > -1));
+  if (!_temp1.length) return [];
+  const _temp2 = _temp1.reduce((acc, cur) => [...acc, ...cur[`_search_${key}`].split(',')], []).filter((v, i, a) => a.indexOf(v) === i);
+  const result1 = result.filter(item => _temp2.includes(item[key])).map(item => {
+    const _item = {...item};
+    Reflect.deleteProperty(_item, `_search_${key}`);
+    return _item;
+  })
+  return deepClone(result1).reduce(function (acc, cur, idx, arr) {
+    cur.cildren = arr.filter(item => item.parentId === cur.id);
+    return arr.filter(item => !item.parentId)
+  }, []);
+}
+
+const result3 = serach(data1, 'id', '-2');
+console.log(JSON.stringify(result3, null, 2))
+
