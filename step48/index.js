@@ -62,7 +62,7 @@ const data2 = [
 
 
 const result2 = data2.reduce(function (acc, cur, idx, arr) {
-  // 检索当前元素的子元素
+  // 检索当前元素的子元素; tips: 此时操作cur会改变arr本身
   cur.cildren = arr.filter(item => item.parentId === cur.id);
   // 判断是否为根元素
   if (!cur.parentId) {
