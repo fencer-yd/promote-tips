@@ -76,10 +76,7 @@ const result2 = deepClone(data2).reduce(function (acc, cur, idx, arr) {
   // 检索当前元素的子元素; tips: 此时操作cur会改变arr本身
   cur.cildren = arr.filter(item => item.parentId === cur.id);
   // 判断是否为根元素
-  if (!cur.parentId) {
-    acc.push(cur)
-  }
-  return acc;
+  return arr.filter(item => !item.parentId)
 }, [])
 
 console.log(JSON.stringify(result2, null, 2));
