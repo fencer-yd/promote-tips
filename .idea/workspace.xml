@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f7a3375-9ef8-49f2-9567-9ee67e497ba3" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/step52/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step53/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +71,7 @@
       <workItem from="1672564664797" duration="5715000" />
       <workItem from="1673240029949" duration="274000" />
       <workItem from="1673264093882" duration="4850000" />
-      <workItem from="1677822368538" duration="4103000" />
+      <workItem from="1677822368538" duration="5569000" />
     </task>
     <task id="LOCAL-00001" summary="add step 49">
       <created>1673240291067</created>
