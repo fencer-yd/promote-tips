@@ -11,11 +11,11 @@ const _global = {};
 _global.fetch = async (status) => {
   if (status) {
     await sleep(1000);
-    return Promise.resolve('success')
+    return Promise.resolve("success");
   }
   await sleep(1000);
-  return Promise.reject('error');
-}
+  return Promise.reject("error");
+};
 
 // 以下是主流程代码模块
 {
@@ -61,27 +61,30 @@ _global.fetch = async (status) => {
     const _oldFetch = _global.fetch;
     _global.fetch = (...args) => {
       if (cache[i]) {
-        if (cache[i].status === 'fulfilled') {
+        if (cache[i].status === "fulfilled") {
           return cache[i].data;
         }
-        if (cache[i].status === 'rejected') {
-          throw  cache[i].err;
+        if (cache[i].status === "rejected") {
+          throw cache[i].err;
         }
       }
       const result = {
-        status: 'pending',
+        status: "pending",
         data: null,
         err: null,
       };
       cache[i++] = result;
-      throw _oldFetch(...args).then(res => res).then((res) => {
-        result.status = 'fulfilled';
-        result.data = res;
-      }, (err) => {
-        result.status = 'rejected';
-        result.err = err;
-      });
-    }
+      throw _oldFetch(...args).then(
+        (res) => {
+          result.status = "fulfilled";
+          result.data = res;
+        },
+        (err) => {
+          result.status = "rejected";
+          result.err = err;
+        }
+      );
+    };
 
     try {
       func();
@@ -90,11 +93,11 @@ _global.fetch = async (status) => {
         const reRun = () => {
           i = 0;
           func();
-        }
+        };
         err.then(reRun, reRun);
       }
     }
-  }
+  };
 
   run(main);
 }

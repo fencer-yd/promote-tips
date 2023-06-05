@@ -1,12 +1,3 @@
-/*
- * @Author: fencer yangd@mshutech.com
- * @Date: 2022-12-05 12:57:35
- * @LastEditors: fencer yangd@mshutech.com
- * @LastEditTime: 2022-12-05 13:24:31
- * @FilePath: /promote-tips/step40/index.js
- * @Description: step 40
- */
-
 /**
  * 实现 a[1][2][3] + 4 = 10;
  */

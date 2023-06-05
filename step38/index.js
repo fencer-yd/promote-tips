@@ -1,11 +1,3 @@
-/*
- * @Author: fencer yangd@mshutech.com
- * @Date: 2022-12-01 21:16:24
- * @LastEditors: fencer yangd@mshutech.com
- * @LastEditTime: 2022-12-02 00:52:16
- * @FilePath: /official-website/a.js
- * @Description: a
- */
 const a = "😄是😭考试客户端开始的";
 
 function getStringLength(str) {

@@ -1,11 +1,3 @@
-/*
- * @Author: fencer 982039620@qq.com
- * @Date: 2022-10-31 17:20:24
- * @LastEditors: fencer 982039620@qq.com
- * @LastEditTime: 2022-10-31 18:08:01
- * @FilePath: /promote-tips/step25/index.js
- * @Description:
- */
 // 面试题
 // 闭包的漏洞
 // 不改变函数内代码，修改obj

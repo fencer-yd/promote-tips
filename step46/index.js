@@ -1,11 +1,3 @@
-/*
- * @Author: fencer yangd@mshutech.com
- * @Date: 2022-12-16 13:10:02
- * @LastEditors: fencer yangd@mshutech.com
- * @LastEditTime: 2022-12-16 13:20:00
- * @FilePath: /promote-tips/step46/index.js
- * @Description: step 46
- */
 /**
  * @description 面试题
  * 密码检查： 1 长度在6~12位

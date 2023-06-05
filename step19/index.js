@@ -1,11 +1,3 @@
-/*
- * @Author: fencer 982039620@qq.com
- * @Date: 2022-09-10 14:59:07
- * @LastEditors: fencer 982039620@qq.com
- * @LastEditTime: 2022-11-01 10:04:35
- * @FilePath: /promote-tips/step19/index.js
- * @Description: step19
- */
 // 阿里面试题
 
 let a = { c: 1 }; // step1
