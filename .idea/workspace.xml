@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f7a3375-9ef8-49f2-9567-9ee67e497ba3" name="变更" comment="">
+    <list default="true" id="6f7a3375-9ef8-49f2-9567-9ee67e497ba3" name="变更" comment="变更">
+      <change afterPath="$PROJECT_DIR$/step62/audio-ay/src/assets/1.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,9 +14,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
   <component name="ProjectId" id="2ITU9wmqsKWRRjr1DwbAiPIRoEt" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -29,15 +37,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "javascript.nodejs.core.library.configured.version": "16.19.0",
-    "javascript.nodejs.core.library.typings.version": "16.18.14",
-    "last_opened_file_path": "/Users/yangdeng/Work/fencer/promote-tips",
+    "git-widget-placeholder": "main",
+    "javascript.nodejs.core.library.configured.version": "18.16.1",
+    "javascript.nodejs.core.library.typings.version": "18.16.1",
+    "last_opened_file_path": "/Users/yangdeng/Work/fencer/promote-tips/step62/audio-ay",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/Users/fencer/Work/fencer/promote-tips/node_modules/typescript/lib",
+    "prettierjs.PrettierConfiguration.Package": "/Users/yangdeng/Work/fencer/promote-tips/node_modules/prettier",
+    "ts.external.directory.path": "/Users/yangdeng/Work/fencer/promote-tips/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -48,6 +58,14 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/step62/audio-ay" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/step62/audio-ay/src/assets" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="step48" type="NodeJSConfigurationType" path-to-js-file="step48/index.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
@@ -72,6 +90,7 @@
       <workItem from="1673240029949" duration="274000" />
       <workItem from="1673264093882" duration="4850000" />
       <workItem from="1677822368538" duration="5569000" />
+      <workItem from="1699510624482" duration="5464000" />
     </task>
     <task id="LOCAL-00001" summary="add step 49">
       <created>1673240291067</created>
