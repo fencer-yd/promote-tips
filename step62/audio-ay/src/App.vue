@@ -1,6 +1,14 @@
 <script setup lang="ts">
 import {onMounted, ref} from "vue";
 import sound from './assets/1.mp3';
+import {a, add} from './a';
+
+console.log(a); // 1
+// a++;
+console.log(a); // error
+add();
+console.log(a); // 2
+
 
 const audioRef = ref<HTMLAudioElement>();
 
