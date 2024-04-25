@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import {onMounted, ref} from "vue";
 import sound from './assets/1.mp3';
+import txt from './1.txt';
 import {a, add} from './a';
 
 console.log(a); // 1
@@ -12,6 +13,24 @@ console.log(a); // 2
 
 const audioRef = ref<HTMLAudioElement>();
 
+async function download(url: string) {
+  const content = await fetch(txt).then(response => response.text())
+  const blob = new Blob([content], { type: 'text/plain' });
+  const downloadLink = document.createElement('a');
+  downloadLink.href = URL.createObjectURL(blob);
+  
+  // 设置文件名
+  downloadLink.download = 'example.txt';
+  
+  // 将链接添加到页面上
+  document.body.appendChild(downloadLink);
+  
+  // 模拟点击链接以触发下载
+  downloadLink.click();
+  
+  // 移除链接
+  document.body.removeChild(downloadLink);
+}
 
 onMounted(() => {
   if (!audioRef.value) return;
@@ -63,6 +82,8 @@ onMounted(() => {
 <template>
   <div>
     <audio ref="audioRef" :src="sound" controls="controls"></audio>
+    
+    <div @click="download">下载</div>
   </div>
 </template>
 

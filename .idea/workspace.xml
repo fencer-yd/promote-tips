@@ -5,26 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f7a3375-9ef8-49f2-9567-9ee67e497ba3" name="变更" comment="add step 62">
-      <change afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step62/audio-ay/src/a.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step63/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step64/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step65/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step65/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step65/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step65/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step65/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step66/glMatrix-0.9.6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step66/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step66/sjx.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step66/star.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step62/audio-ay/src/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step67/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step68/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step69/a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step69/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step70/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step71/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step72/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step73/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step74/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step75/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step76/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step77/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step78/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step79/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/step10/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/step10/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/step36/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/step36/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/step62/audio-ay/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/step62/audio-ay/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/step62/audio-ay/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/step62/audio-ay/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/step62/audio-ay/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/step62/audio-ay/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step62/audio-ay/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/step62/audio-ay/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step62/audio-ay/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/step62/audio-ay/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +34,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;fencer-yd&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:fencer-yd/promote-tips.git&quot;,
+    &quot;accountId&quot;: &quot;0cb01dbc-1310-4120-8926-ad2ecda4ae64&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -48,35 +60,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "V_FMT": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "javascript.nodejs.core.library.configured.version": "18.16.1",
-    "javascript.nodejs.core.library.typings.version": "18.16.20",
-    "last_opened_file_path": "/Users/yangdeng/Work/fencer/promote-tips",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/Users/yangdeng/Work/fencer/promote-tips/node_modules/prettier",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "/Users/yangdeng/Work/fencer/promote-tips/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;V_FMT&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;16.20.2&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;16.18.96&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/yangdeng/Work/fencer/promote-tips&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/yangdeng/Work/fencer/promote-tips/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/yangdeng/Work/fencer/promote-tips/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/step63" />
@@ -93,6 +105,13 @@
     <configuration name="step48" type="NodeJSConfigurationType" path-to-js-file="step48/index.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-WS-241.14494.235" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -129,6 +148,15 @@
       <workItem from="1702018439448" duration="12485000" />
       <workItem from="1702887327211" duration="659000" />
       <workItem from="1702956074196" duration="526000" />
+      <workItem from="1705459699625" duration="811000" />
+      <workItem from="1712130401736" duration="859000" />
+      <workItem from="1712137742377" duration="595000" />
+      <workItem from="1712748263896" duration="1791000" />
+      <workItem from="1712803390768" duration="15000" />
+      <workItem from="1712807756685" duration="1238000" />
+      <workItem from="1713179721975" duration="9653000" />
+      <workItem from="1713954730984" duration="5951000" />
+      <workItem from="1713962257146" duration="9254000" />
     </task>
     <task id="LOCAL-00001" summary="add step 49">
       <created>1673240291067</created>
