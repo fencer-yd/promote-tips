@@ -4,27 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f7a3375-9ef8-49f2-9567-9ee67e497ba3" name="变更" comment="add step 62">
-      <change afterPath="$PROJECT_DIR$/step62/audio-ay/src/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step67/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step68/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step69/a.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step69/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step70/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step71/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step72/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step73/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step74/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step75/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step76/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step77/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step78/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step79/index.js" afterDir="false" />
+    <list default="true" id="6f7a3375-9ef8-49f2-9567-9ee67e497ba3" name="变更" comment="add some">
+      <change afterPath="$PROJECT_DIR$/step80/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step81/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step82/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/step62/audio-ay/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/step62/audio-ay/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/step62/audio-ay/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/step62/audio-ay/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/step62/audio-ay/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/step62/audio-ay/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/step62/audio-ay/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/step62/audio-ay/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,35 +44,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;V_FMT&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;16.20.2&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;16.18.96&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/yangdeng/Work/fencer/promote-tips&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/yangdeng/Work/fencer/promote-tips/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/yangdeng/Work/fencer/promote-tips/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Node.js.step48.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "V_FMT": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "javascript.nodejs.core.library.configured.version": "16.20.2",
+    "javascript.nodejs.core.library.typings.version": "16.18.96",
+    "last_opened_file_path": "/Users/yangdeng/Work/fencer/promote-tips",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/yangdeng/Work/fencer/promote-tips/node_modules/prettier",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/Users/yangdeng/Work/fencer/promote-tips/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;,
-      &quot;repository&quot;
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/step63" />
@@ -102,7 +87,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="step48" type="NodeJSConfigurationType" path-to-js-file="step48/index.js" working-dir="$PROJECT_DIR$">
+    <configuration name="step48" type="NodeJSConfigurationType" path-to-js-file="step82/index.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
   </component>
@@ -156,7 +141,7 @@
       <workItem from="1712807756685" duration="1238000" />
       <workItem from="1713179721975" duration="9653000" />
       <workItem from="1713954730984" duration="5951000" />
-      <workItem from="1713962257146" duration="9254000" />
+      <workItem from="1713962257146" duration="18959000" />
     </task>
     <task id="LOCAL-00001" summary="add step 49">
       <created>1673240291067</created>
@@ -181,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699517461090</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add some">
+      <option name="closed" value="true" />
+      <created>1714028469606</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714028469606</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +184,19 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add step 49" />
     <MESSAGE value="add step 62" />
-    <option name="LAST_COMMIT_MESSAGE" value="add step 62" />
+    <MESSAGE value="add some" />
+    <option name="LAST_COMMIT_MESSAGE" value="add some" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/step82/index.js</url>
+          <line>68</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
