@@ -59,7 +59,7 @@ var intToRoman = function(num) {
   const numList = num.toString().split('');
   let result = '';
   const newNumberList = [];
-  const formatList = [['I', 'V'], ['X', 'L'], ['C', 'D'], ['M', '']]
+  const formatList = [['I', 'V'], ['X', 'L'], ['C', 'D'], ['M', '']];
 
   for(let i = numList.length - 1; i >=0; i--) {
     newNumberList.push(numList[i]);

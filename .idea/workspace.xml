@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f7a3375-9ef8-49f2-9567-9ee67e497ba3" name="变更" comment="add some">
-      <change afterPath="$PROJECT_DIR$/step80/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step81/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step82/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step83/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step84/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step85/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step86/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step87/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step88/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step89/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step90/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step91/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step82/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/step82/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +94,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="step48" type="NodeJSConfigurationType" path-to-js-file="step82/index.js" working-dir="$PROJECT_DIR$">
+    <configuration name="step48" type="NodeJSConfigurationType" path-to-js-file="step87/index.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
   </component>
@@ -141,7 +148,7 @@
       <workItem from="1712807756685" duration="1238000" />
       <workItem from="1713179721975" duration="9653000" />
       <workItem from="1713954730984" duration="5951000" />
-      <workItem from="1713962257146" duration="18959000" />
+      <workItem from="1713962257146" duration="51296000" />
     </task>
     <task id="LOCAL-00001" summary="add step 49">
       <created>1673240291067</created>
@@ -174,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714028469606</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add some">
+      <option name="closed" value="true" />
+      <created>1714101665877</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714101665877</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,17 +201,5 @@
     <MESSAGE value="add step 62" />
     <MESSAGE value="add some" />
     <option name="LAST_COMMIT_MESSAGE" value="add some" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/step82/index.js</url>
-          <line>68</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
